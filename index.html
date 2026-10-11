@@ -168,9 +168,9 @@ nav.wrap{ display:flex; align-items:center; justify-content:space-between; }
 .hero-visual{ position:relative; display:flex; justify-content:center; }
 .portrait-frame{
   position:relative; width:min(340px,80%); aspect-ratio:4/5; border-radius:20px; overflow:hidden;
-  border:1px solid var(--line-strong); background:var(--panel);
+  border:1px solid var(--line-strong); background:var(--panel) url('assets/profile_photo.png') center/cover no-repeat;
 }
-.portrait-frame img{ width:100%; height:100%; object-fit:cover; filter:grayscale(28%) contrast(1.04); }
+.portrait-frame img{ width:100%; height:100%; object-fit:cover; filter:grayscale(28%) contrast(1.04); opacity:0; }
 .portrait-frame::before{
   content:''; position:absolute; inset:0; z-index:2; pointer-events:none;
   background:linear-gradient(180deg, transparent 55%, rgba(11,18,16,.55) 100%);
@@ -441,7 +441,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
       <p class="hero-sub">I'm Omkar — a Java backend developer in Pune who designs Spring Boot microservices, event-driven pipelines with Kafka, and REST APIs that hold up in production.</p>
       <div class="hero-cta">
         <a href="#projects" class="btn btn-primary">View Projects <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
-        <a href="assets/omkar_mundhe_java_developer_resume.pdf" download class="btn btn-ghost">Download Resume <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg></a>
+        <a href="assets/CV_Omkar_Mundhe_Java_Backend_1_4_Yrs.pdf" download class="btn btn-ghost">Download CV <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg></a>
         <a href="#contact" class="btn btn-ghost">Contact Me</a>
       </div>
       <div class="hero-meta">
@@ -691,7 +691,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
         <p>One-page PDF résumé — experience, projects, and skills, formatted for both recruiters and ATS scanners.</p>
       </div>
       <div class="resume-actions">
-        <a href="assets/omkar_mundhe_java_developer_resume.pdf" download class="btn btn-primary">Download Resume <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg></a>
+        <a href="assets/CV_Omkar_Mundhe_Java_Backend_1_4_Yrs.pdf" download class="btn btn-primary">Download CV <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg></a>
       </div>
     </div>
   </div>
@@ -708,7 +708,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
           <span class="lft"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg></span><span><div class="lbl">EMAIL</div><div class="val">omkarm1750@gmail.com</div></span></span>
           <span class="arrow">→</span>
         </a>
-        <a class="contact-link" href="https://www.linkedin.com/in/omkarmundhe/" target="_blank" rel="noopener">
+        <a class="contact-link" href="https://www.linkedin.com/in/omkarm1/" target="_blank" rel="noopener">
           <span class="lft"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span><span><div class="lbl">LINKEDIN</div><div class="val">in/omkarmundhe</div></span></span>
           <span class="arrow">→</span>
         </a>
